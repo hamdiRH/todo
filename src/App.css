@@ -1,0 +1,50 @@
+.request{
+    
+  background-color: #4696E5;
+  width:70%;
+  color:white;
+  font-weight: bold;
+}
+
+.request-content{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding:50px 100px;
+}
+
+.request-content>input{
+  width:100%;
+  height: 50px;
+  border-radius: 10px;
+  border:none;
+  color:#4696E5;
+}
+
+#add-button{
+  background-color: transparent;
+  border-color: white;
+  width : 10%;
+  margin-top : 20px;
+  font-weight: bold;
+}
+.response{
+  background-color: "#FBFBFB";
+}
+.response-content{
+  background-color: #FBFBFB;
+  width:70%;
+  min-height: 300px;
+  color:grey;
+  font-weight: bold;
+  margin-bottom: 50px;
+  padding-bottom:30px;
+}
+
+.response-title{
+  background-color: #FBFBFB;
+  text-align: center;
+  padding-top : 50px;
+  width:100%;
+}
